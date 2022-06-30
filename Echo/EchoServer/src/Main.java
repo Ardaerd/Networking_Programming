@@ -20,7 +20,7 @@ public class Main {
                 String echoString = input.readLine();
                 if (echoString.equals("exit"))
                     break;
-                System.out.println("Echo from server: " + echoString);
+                output.println("Echo from server: " + echoString);
             }
 
         } catch (IOException e) {
