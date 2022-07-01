@@ -22,7 +22,6 @@ public class Main {
                 System.out.println("Waiting for the client request");
                 // creating socket and waiting for client connection
                 Socket socket = serverSocket.accept();
-                System.out.println("Connected...");
 
                 // Read from socket
                 InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream());
@@ -49,6 +48,6 @@ public class Main {
 
         } catch (IOException e) {
             e.printStackTrace();
-        } 
+        }
     }
 }
