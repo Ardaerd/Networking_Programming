@@ -4,7 +4,7 @@ import java.net.*;
 public class Main {
     public static void main(String[] args) {
 
-        String hostname = "djxmmx.net";
+        String hostname = "localhost";
         int port = 17;
 
         try {
